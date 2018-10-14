@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTracing.TracingFilter.Example", "OpenTracing.TracingFilter.Example\OpenTracing.TracingFilter.Example.csproj", "{01209BE4-82A2-491A-9846-D97491E43680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTracing.TracingFilter", "OpenTracing.TracingFilter\OpenTracing.TracingFilter.csproj", "{422FB5DF-596F-462B-910C-5B5E3049934F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01209BE4-82A2-491A-9846-D97491E43680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01209BE4-82A2-491A-9846-D97491E43680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01209BE4-82A2-491A-9846-D97491E43680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01209BE4-82A2-491A-9846-D97491E43680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422FB5DF-596F-462B-910C-5B5E3049934F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422FB5DF-596F-462B-910C-5B5E3049934F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422FB5DF-596F-462B-910C-5B5E3049934F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422FB5DF-596F-462B-910C-5B5E3049934F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C1D8FD6-4E94-44AC-9BA9-B0456FD7CB0A}
+	EndGlobalSection
+EndGlobal
