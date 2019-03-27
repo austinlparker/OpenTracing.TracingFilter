@@ -8,7 +8,7 @@ namespace OpenTracing.TracingFilter.Example
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
-            filters.Add(new Traced());
+            filters.Add(new Propagator());
         }
     }
 }
